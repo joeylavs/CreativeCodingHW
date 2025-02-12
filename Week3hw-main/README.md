@@ -1,0 +1,1 @@
+not gonna lie this whole thing was a bit frustrating couldnt figure out where to post scratch on discord until it was too late. i tried i missed a couple things definetly wish there was a bit more time to mess with it.
