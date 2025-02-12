@@ -1,0 +1,5 @@
+The differences between CLI and GUI are that CLI uses text commands to execute programs and are more complex. 
+CLI is also more efficent and faster also has higher precision functionality and granular control.
+CLI also need to have more accurate commands to function as well making it more complex to use. 
+While GUI is more visual like using a mouse and keyboard and is also simplified and user friendly by using thing like icons, buttons, and menus.
+GUI use the systems resources to work making easier for people to learn to use and can be modified to fit the users needs.
