@@ -1,0 +1,19 @@
+span{
+    background-color: white;
+}
+.green{
+    color: green;
+}
+.white{
+    color: white;
+}
+#font{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url('https://i.pinimg.com/originals/4f/fd/bc/4ffdbc6c9828d93e4f187f44f71881c2.jpg');
+}
+#font2{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;}
