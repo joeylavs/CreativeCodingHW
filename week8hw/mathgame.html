@@ -1,0 +1,49 @@
+<html>
+<h1>Math Game</h1>
+<p id="question">What is 2 + 2?</p>
+<input type="number" id="answer" />
+<button onclick="submitAnswer()">Submit</button>
+
+<p id="results"></p>
+
+<script>
+  let correctCount = 0;
+  let wrongCount = 0;
+  const totalQuestions = 4; // Set the number of questions
+  let currentQuestion = 1;
+
+  function getNextQuestion() {
+    const num1 = Math.floor(Math.random() * 10);
+    const num2 = Math.floor(Math.random() * 10);
+    document.getElementById("question").innerText = `What is ${num1} + ${num2}?`;
+    return num1 + num2;
+  }
+
+  let correctAnswer = getNextQuestion();
+
+  function submitAnswer() {
+    const userAnswer = parseInt(document.getElementById("answer").value);
+    if (userAnswer === correctAnswer) {
+      correctCount++;
+    } else {
+      wrongCount++;
+    }
+    if (currentQuestion < totalQuestions) {
+      currentQuestion++;
+      correctAnswer = getNextQuestion();
+    } else {
+      const percentage = (correctCount / totalQuestions) * 100;
+      document.getElementById("results").innerText = 
+        `You got ${correctCount} out of ${totalQuestions} correct (${percentage}%).`;
+    }
+    document.getElementById("answer").value = ""; // Clear input
+  }
+</script>
+<body><a href="index.html"><button>Home</button></a></body>
+
+  <style>
+    body {
+        background-image: url('https://www.visualworkplace.co.uk/static/upload/full/6dbe0516-3d86-4529-8d3f-00ed41dab68d/Whiteboard-240x120cm.jpg');
+    }
+    </style>
+</html>
