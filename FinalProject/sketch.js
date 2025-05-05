@@ -16,12 +16,12 @@ let obstacleSlowdown = 0;
 let playerImg, wendigoImg, arrowImg, foodImg, treeImg, rockImg;
 
 function preload() {
-  playerImg = loadImage("assets/player.png");
-  wendigoImg = loadImage("assets/wendigo.png");
-  arrowImg = loadImage("assets/arrow.png");
-  foodImg = loadImage("assets/food.png");
-  treeImg = loadImage("assets/tree.png");
-  rockImg = loadImage("assets/rock.png");
+  playerImg = loadImage("player.png");
+  wendigoImg = loadImage("wendigo.png");
+  arrowImg = loadImage("arrow.png");
+  foodImg = loadImage("food.png");
+  treeImg = loadImage("tree.png");
+  rockImg = loadImage("rock.png");
 }
 
 function setup() {
