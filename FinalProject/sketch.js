@@ -16,7 +16,7 @@ let obstacleSlowdown = 0;
 let playerImg, wendigoImg, arrowImg, foodImg, treeImg, rockImg;
 
 function preload() {
-  playerImg = loadImage("player.png");
+  playerImg = loadImage("player.PNG");
   wendigoImg = loadImage("wendigo.png");
   arrowImg = loadImage("arrow.png");
   foodImg = loadImage("food.png");
