@@ -23,6 +23,13 @@ function preload() {
   treeImg = loadImage("tree.png");
   rockImg = loadImage("rock.png");
 }
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
 
 function setup() {
   createCanvas(600, 800);
